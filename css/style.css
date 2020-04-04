@@ -36,15 +36,16 @@ h3 {
     background: url(../img/header.jpg) center no-repeat;
     background-size: cover;
     height: 100vh;
-    min-height: 600px;
+    min-height: 700px;
     position: relative;
 }
-
+.main-header .navbar-toggler {
+    color: #fff;
+}
 .main-header ul li a {
     color: #fff;
     font-size: 17px;
 }
-
 .main-header ul li a::after {
     content: '';
     display: block;
@@ -109,4 +110,76 @@ h3 {
 }
 .main-header-buttons .btn-violet {
     background: #5f3fb8;
+}
+
+#navbarSupportedContent li.nav-item {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .main-header-text {
+        background-color: rgba(0,0,0, .3);
+    }
+
+}
+@media only screen and (max-width: 991px) {
+    .navbar-nav {
+        background: linear-gradient(45deg, rgba(213,24,44,1) 0%, rgba(43,30,86,1) 100%);
+        position: relative;
+        z-index: 999;
+        padding: 0 15px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .main-header-text {
+        left: 0;
+        margin: 0 20px;
+        max-width: 100%;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 30px;
+    }  
+    .navbar-brand {
+        width: 50%;
+    } 
+    .navbar-brand img {
+        max-width: 60%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .main-header-text {
+        top: 90px;
+    }
+    .main-header-buttons {
+        padding-left: 0;
+    }
+    .main-header-buttons .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    
+}
+
+@media only screen and (max-width: 380px) {
+    .main-header .navbar-brand {
+        font-size: 30px;
+    }
 }
