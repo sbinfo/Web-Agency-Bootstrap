@@ -117,6 +117,66 @@ h3 {
     text-align: center;
     margin: 0 auto;
 }
+/* =============================== header end =============================== */ 
+
+
+/* =============================== about =============================== */ 
+
+.section-about {
+    padding: 70px 0;
+}
+
+.section-about h2, .section-about h3 {
+    color: #484848;
+}
+
+.section-about .nav-link {
+    color: #484848;
+    font-size: 13px;
+    text-transform: uppercase;
+    /* font-family: Regular; */
+}
+
+.section-about .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #f42267;
+    color: #fff;
+    border-radius: 23px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+    padding: 10px 17px;
+    box-shadow: 1px 4px 16px rgba(1, 2, 2, 0.35);
+}
+
+.section-about .tab-content {
+    margin-top: 30px;
+}
+
+.btn-shadow {
+    color: #fff;
+    box-shadow: 0 8px 0 #ff5990;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px 20px;
+    transition: all 0.5;
+    -webkit-transition: all 0.5;
+    -moz-transition: all 0.5;
+    -ms-transition: all 0.5;
+    -o-transition: all 0.5;
+}
+
+.btn-shadow:hover {
+    color: #fff;
+    transition: all 0.5;
+    -webkit-transition: all 0.5;
+    -moz-transition: all 0.5;
+    -ms-transition: all 0.5;
+    -o-transition: all 0.5;
+    box-shadow: 0 4px 0 #ff5990;
+}
+
+/* =============================== about end =============================== */
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
