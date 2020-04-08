@@ -133,8 +133,8 @@ h3 {
 .section-about .nav-link {
     color: #484848;
     font-size: 13px;
+    font-weight: 600;
     text-transform: uppercase;
-    /* font-family: Regular; */
 }
 
 .section-about .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -153,12 +153,18 @@ h3 {
     margin-top: 30px;
 }
 
+.section-about .tab-content {
+    color: #1d1d1d;
+    font-size: 14px;
+}
+
 .btn-shadow {
     color: #fff;
     box-shadow: 0 8px 0 #ff5990;
     border-radius: 10px;
     font-size: 15px;
     padding: 10px 20px;
+    margin-top: 25px;
     transition: all 0.5;
     -webkit-transition: all 0.5;
     -moz-transition: all 0.5;
@@ -175,6 +181,7 @@ h3 {
     -o-transition: all 0.5;
     box-shadow: 0 4px 0 #ff5990;
 }
+
 
 /* =============================== about end =============================== */
 
