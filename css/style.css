@@ -182,8 +182,52 @@ h3 {
     box-shadow: 0 4px 0 #ff5990;
 }
 
+/* =============================== section about end =============================== */
 
-/* =============================== about end =============================== */
+
+/* =============================== section progress =============================== */
+.section-progress {
+    padding: 0;
+    min-height: 300px;
+    background: #4b2d7f;
+    color: #fff;
+}
+
+.section-progress .progress-item:hover {
+    background-color: #281d3c;
+}
+.section-progress .progress-item {
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   transition: 0.5s;
+   -webkit-transition: 0.5s;
+   -moz-transition: 0.5s;
+   -ms-transition: 0.5s;
+   -o-transition: 0.5s;
+}
+.section-progress .progress-item .num {
+   margin-top: 20px;
+   font-size: 50px;
+   font-weight: bold;
+}
+
+.section-progress .progress-item h4 {
+   font-size: 21px;
+   font-weight: 600;
+}
+
+.section-progress .progress-item span {
+   font-size: 25px;
+}
+.section-progress .progress-item p {
+    margin-top: 30px;
+   font-size: 15px;
+   color: #9a9a9a;
+}
+
+/* =============================== section progress end =============================== */
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -228,6 +272,21 @@ h3 {
     .navbar-brand img {
         max-width: 60%;
     }
+    .section-progress .progress-item {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .section-progress .progress-item h4 {
+        font-size: 18px;
+     }
+     .section-progress .progress-item span {
+        font-size: 22px;
+     }
+     .section-progress .progress-item .num {
+        font-size: 38px;
+     }
 }
 @media only screen and (max-width: 600px) {
     .main-header-text {
