@@ -24,6 +24,7 @@ h3 {
     font-size: 42px;
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
+
 .btn {
     color: #fff;
     text-transform: uppercase;
@@ -31,7 +32,9 @@ h3 {
     font-weight: bold;
 }
 
-/* =============================== header =============================== */ 
+
+/* =============================== header =============================== */
+
 .main-header {
     background: url(../img/header.jpg) center no-repeat;
     background-size: cover;
@@ -39,13 +42,16 @@ h3 {
     min-height: 700px;
     position: relative;
 }
+
 .main-header .navbar-toggler {
     color: #fff;
 }
+
 .main-header ul li a {
     color: #fff;
     font-size: 17px;
 }
+
 .main-header ul li a::after {
     content: '';
     display: block;
@@ -76,18 +82,21 @@ h3 {
     -ms-transition: all .3s;
     -o-transition: all .3s;
 }
+
 .main-header-text {
-     position: absolute;
-     top: 25%;
-     left: 5%;
-     max-width: 600px;
-     color: #fff;
-     padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    max-width: 600px;
+    color: #fff;
+    padding: 20px;
 }
+
 .main-header-buttons {
     padding-left: 30px;
     margin-top: 70px;
 }
+
 .main-header-buttons .btn {
     height: 60px;
     padding-left: 40px;
@@ -101,13 +110,16 @@ h3 {
     -ms-transition: all .5s;
     -o-transition: all .5s;
 }
+
 .main-header-buttons .btn:hover {
     color: #fff;
     opacity: 1;
 }
+
 .btn-pink {
     background: #f42267;
 }
+
 .main-header-buttons .btn-violet {
     background: #5f3fb8;
 }
@@ -117,16 +129,19 @@ h3 {
     text-align: center;
     margin: 0 auto;
 }
-/* =============================== header end =============================== */ 
 
 
-/* =============================== about =============================== */ 
+/* =============================== header end =============================== */
+
+
+/* =============================== about =============================== */
 
 .section {
     padding: 70px 0;
 }
 
-.section-about h2, .section-about h3 {
+.section-about h2,
+.section-about h3 {
     color: #484848;
 }
 
@@ -137,7 +152,8 @@ h3 {
     text-transform: uppercase;
 }
 
-.section-about .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.section-about .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     background-color: #f42267;
     color: #fff;
     border-radius: 23px;
@@ -182,10 +198,12 @@ h3 {
     box-shadow: 0 4px 0 #ff5990;
 }
 
+
 /* =============================== section about end =============================== */
 
 
 /* =============================== section progress =============================== */
+
 .section-progress {
     padding: 0;
     min-height: 300px;
@@ -196,64 +214,87 @@ h3 {
 .section-progress .progress-item:hover {
     background-color: #281d3c;
 }
+
 .section-progress .progress-item {
-   padding-left: 5%;
-   padding-right: 5%;
-   padding-top: 80px;
-   padding-bottom: 80px;
-   transition: 0.5s;
-   -webkit-transition: 0.5s;
-   -moz-transition: 0.5s;
-   -ms-transition: 0.5s;
-   -o-transition: 0.5s;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
+
 .section-progress .progress-item .num {
-   margin-top: 20px;
-   font-size: 50px;
-   font-weight: bold;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .section-progress .progress-item h4 {
-   font-size: 21px;
-   font-weight: 600;
+    font-size: 21px;
+    font-weight: 600;
 }
 
 .section-progress .progress-item span {
-   font-size: 25px;
+    font-size: 25px;
 }
+
 .section-progress .progress-item p {
     margin-top: 30px;
-   font-size: 15px;
-   color: #9a9a9a;
+    font-size: 15px;
+    color: #9a9a9a;
 }
+
 
 /* =============================== section progress end =============================== */
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
 
+/* =============================== section lets =============================== */
+
+.section-lets {
+    background: url(../img/2-layers.png) center no-repeat;
+    background-size: cover;
+    color: #fff;
 }
+
+
+/* =============================== section lets end =============================== */
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
 
 /* Medium Devices, Desktops */
+
 @media only screen and (max-width: 992px) {
     .main-header-text {
-        background-color: rgba(0,0,0, .3);
+        background-color: rgba(0, 0, 0, .3);
     }
     .section {
-        padding: 30px 0;
+        padding: 40px 0;
     }
-
+    .section-progress {
+        padding: 0;
+    }
 }
+
 @media only screen and (max-width: 991px) {
     .navbar-nav {
-        background: linear-gradient(45deg, rgba(213,24,44,1) 0%, rgba(43,30,86,1) 100%);
+        background: linear-gradient(45deg, rgba(213, 24, 44, 1) 0%, rgba(43, 30, 86, 1) 100%);
         position: relative;
         z-index: 999;
         padding: 0 15px;
     }
 }
 
+
 /* Small Devices, Tablets */
+
 @media only screen and (max-width: 768px) {
     .main-header-text {
         left: 0;
@@ -265,10 +306,10 @@ h3 {
     }
     h3 {
         font-size: 30px;
-    }  
+    }
     .navbar-brand {
         width: 50%;
-    } 
+    }
     .navbar-brand img {
         max-width: 60%;
     }
@@ -280,14 +321,15 @@ h3 {
     }
     .section-progress .progress-item h4 {
         font-size: 18px;
-     }
-     .section-progress .progress-item span {
+    }
+    .section-progress .progress-item span {
         font-size: 22px;
-     }
-     .section-progress .progress-item .num {
+    }
+    .section-progress .progress-item .num {
         font-size: 38px;
-     }
+    }
 }
+
 @media only screen and (max-width: 600px) {
     .main-header-text {
         top: 90px;
@@ -300,7 +342,6 @@ h3 {
         width: 100%;
         margin-bottom: 15px;
     }
-
     .section h3 {
         font-size: 23px;
     }
@@ -309,16 +350,15 @@ h3 {
     }
 }
 
+
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-    
-}
+
+@media only screen and (max-width: 480px) {}
 
 @media only screen and (max-width: 380px) {
     .main-header .navbar-brand {
         font-size: 30px;
     }
-
     .section-about .nav-pills .nav-item {
         width: 100%;
     }
