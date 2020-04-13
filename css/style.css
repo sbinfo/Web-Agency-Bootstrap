@@ -122,7 +122,7 @@ h3 {
 
 /* =============================== about =============================== */ 
 
-.section-about {
+.section {
     padding: 70px 0;
 }
 
@@ -195,6 +195,9 @@ h3 {
     .main-header-text {
         background-color: rgba(0,0,0, .3);
     }
+    .section {
+        padding: 30px 0;
+    }
 
 }
 @media only screen and (max-width: 991px) {
@@ -238,6 +241,13 @@ h3 {
         width: 100%;
         margin-bottom: 15px;
     }
+
+    .section h3 {
+        font-size: 23px;
+    }
+    .section h2 {
+        font-size: 24px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -248,5 +258,9 @@ h3 {
 @media only screen and (max-width: 380px) {
     .main-header .navbar-brand {
         font-size: 30px;
+    }
+
+    .section-about .nav-pills .nav-item {
+        width: 100%;
     }
 }
