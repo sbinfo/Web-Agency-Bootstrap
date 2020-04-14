@@ -27,8 +27,6 @@ h3 {
 
 h4 {
     font-size: 25px;
-    font-weight: 600;
-    color: #484848;
 }
 
 .btn {
@@ -273,6 +271,9 @@ h4 {
 /* =============================== section design =============================== */
 .section-design h4 {
     margin-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #484848;
 }
 .section-design p {
     color: #1d1d1d;
@@ -282,6 +283,27 @@ h4 {
 .section-design .carts p {
     font-size: 14px;
 }
+.section-design .embed-responsive {
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    max-width: 560px;
+    height: 460px;
+    margin-left: 30px;
+}
+.section-design #videoPlayBtn {
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    background: url(../img/play.png) center no-repeat;
+}
+
 /* =============================== section design end =============================== */
 
 
@@ -293,6 +315,10 @@ h4 {
 /* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {
+    .section-design .embed-responsive { 
+        margin-left: auto;
+        margin-right: auto;
+    }
     .main-header-text {
         background-color: rgba(0, 0, 0, .3);
     }
