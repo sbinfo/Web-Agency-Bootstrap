@@ -124,7 +124,7 @@ h4 {
     background: #f42267;
 }
 
-.main-header-buttons .btn-violet {
+.btn-violet {
     background: #5f3fb8;
 }
 
@@ -386,6 +386,47 @@ ul#myTab-gallery {
 
 /* =============================== section reviews end =============================== */
 
+.btn-violet {
+    font-weight: normal;
+}.btn-violet:hover {
+    color: #ffffff;
+    background: #865bd2;
+    text-decoration: none;
+}
+
+/* =============================== section form =============================== */
+section.section-form {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: rgb(200,14,75);
+    background: linear-gradient(36deg, rgba(200,14,75,1) 0%, rgba(244,34,103,1) 58%, rgba(255,255,255,1) 100%);
+    color: #fff;
+}
+
+section.section-form h2 {
+    margin: 0;
+}
+section.section-form h5 {
+    font-size: 27px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+section.section-form form {
+    margin-top: 40px;
+}
+section.section-form .form-control {
+    background-color: rgba(255, 255, 255, 0.35);
+    color: #fff;
+    border: none;
+}
+section.section-form .form-control::placeholder {
+    color: #fff;
+}
+
+
+
+/* =============================== section form end =============================== */
+
 
 
 
@@ -479,6 +520,9 @@ ul#myTab-gallery {
     .section-reviews .carousel-caption {
         padding: 20px;
         top: 0;
+    }
+    section.section-form h5 {
+        font-size: 20px;
     }
 }
 
