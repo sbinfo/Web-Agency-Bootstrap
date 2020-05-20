@@ -249,7 +249,7 @@ h4 {
 .section-progress .progress-item p {
     margin-top: 30px;
     font-size: 15px;
-    color: #9a9a9a;
+    color: #d9d9d9;
 }
 
 
@@ -312,6 +312,7 @@ h4 {
 .section-work {
     background-color: #f6f6f6;
     padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .section-work .gallery .gallery-item {
@@ -346,6 +347,46 @@ ul#myTab-gallery {
 /* =============================== section design end =============================== */
 
 
+/* =============================== section review =============================== */
+
+.section-reviews {
+    background: linear-gradient(rgba(249, 249, 249, 0.6), rgba(83, 82, 82, 0.6)), url(../img/review-bg3.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.section-reviews .carousel-item img {
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.section-reviews .carousel-caption {
+    background: #0000002e;
+    border-radius: 5px;
+    height: 320px;
+}
+
+.section-reviews .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+}
+
+.section-reviews footer.blockquote-footer {
+    color: #fff;
+}
+
+/* =============================== section reviews end =============================== */
+
+
 
 
 /* Large Devices, Wide Screens */
@@ -368,6 +409,21 @@ ul#myTab-gallery {
     }
     .section-progress {
         padding: 0;
+    }
+
+    .section-reviews .carousel-caption {
+        padding: 8px;
+        padding-top: 70px;
+    }
+    .section-reviews .carousel-caption h3 {
+        font-size: 34px;
+    }
+    .section-reviews .carousel-caption p {
+        font-size: 18px;
+    }
+    .section-reviews .carousel-item img {
+        width: 280px;
+        height: 280px;
     }
 }
 
@@ -415,6 +471,14 @@ ul#myTab-gallery {
     }
     .section-progress .progress-item .num {
         font-size: 38px;
+    }
+    .section-reviews .carousel-item img {
+        width: 220px;
+        height: 220px;
+    }
+    .section-reviews .carousel-caption {
+        padding: 20px;
+        top: 0;
     }
 }
 
