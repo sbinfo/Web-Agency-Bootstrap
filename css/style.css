@@ -423,6 +423,9 @@ section.section-form .form-control::placeholder {
     color: #fff;
 }
 
+section.section-form  .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 82, 0.55);
+}
 
 
 /* =============================== section form end =============================== */
