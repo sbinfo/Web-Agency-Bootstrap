@@ -1,5 +1,20 @@
 $(function() {
     baguetteBox.run('.gallery');
+
+
+    $( window ).scroll (function() {
+        if( $( this ).scrollTop() > 300 ) {
+            $( '.scroll_to_top' ).fadeIn();
+        } else {
+            $( '.scroll_to_top' ).fadeOut();
+        }
+    });
+
+    $( '.scroll_to_top' ).click( function() {
+        $( 'html, body' ).animate({ scrollTop: 0 }, 800);
+        return false;
+    });
+
 });
 
 function onYouTubeIframeAPIReady() {
