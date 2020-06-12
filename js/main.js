@@ -15,6 +15,12 @@ $(function() {
         return false;
     });
 
+    $( window ).on( 'load', function() {
+        $( '.preloader' ).delay(300).fadeOut('slow', function() {
+            $(this).attr('style', 'display: none !important');
+        })
+    });
+
 });
 
 function onYouTubeIframeAPIReady() {
