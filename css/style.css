@@ -457,6 +457,10 @@ section.section-form  .form-control:focus {
     -o-border-radius: 15px;
 }
 
+.footer-images .col-6 { 
+    max-width: 40%;
+}
+
 .copyright {
     background-color: #f6f6f6;
     padding: 50px 0;
@@ -506,6 +510,10 @@ section.section-form  .form-control:focus {
 
 /* =============================== footer end =============================== */
 
+.navbar-brand img {
+    max-width: 70%;
+}
+
 .preloader {
     position: fixed;
     top: 0;
@@ -516,6 +524,10 @@ section.section-form  .form-control:focus {
     background-color: #fefefe;
 }
 
+
+/* =============================== section content =============================== */
+
+/* =============================== end section content =============================== */
 
 
 /* Large Devices, Wide Screens */
@@ -557,7 +569,7 @@ section.section-form  .form-control:focus {
 }
 
 @media only screen and (max-width: 991px) {
-    .navbar-nav {
+    .main-header .navbar-nav {
         background: linear-gradient(45deg, rgba(213, 24, 44, 1) 0%, rgba(43, 30, 86, 1) 100%);
         position: relative;
         z-index: 999;
